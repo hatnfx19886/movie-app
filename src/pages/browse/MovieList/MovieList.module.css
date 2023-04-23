@@ -1,0 +1,47 @@
+.list-container {
+  padding: 1.5rem;
+  padding-bottom: 3.5rem;
+}
+.movelist {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 12px;
+  margin: 0 1.5rem;
+}
+.movelist img {
+  width: 200px;
+  margin: 1.5rem 0;
+}
+img.poster {
+  width: 150px;
+}
+
+.movelist img:hover {
+  animation-name: img-hover;
+  animation-duration: 0.5s;
+  transform: scale(1.1);
+}
+.movelist::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.movelist::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.movelist::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+
+@keyframes img-hover {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

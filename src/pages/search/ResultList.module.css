@@ -1,0 +1,26 @@
+.container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.result img {
+  width: 120px;
+}
+.result img:hover {
+  animation-name: img-hover;
+  animation-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+@keyframes img-hover {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

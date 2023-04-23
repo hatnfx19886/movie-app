@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  z-index: 100;
+}
+.navbar h2 {
+  color: #ff0000;
+}
+.navbar svg {
+  height: 2rem;
+  color: #fff;
+}
+.navbar a {
+  text-decoration: none;
+}
+.dark-color {
+  background-color: #000;
+}
